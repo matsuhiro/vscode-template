@@ -1,11 +1,8 @@
 {
-/*
-	VSCode用マークダウン・テンプレート
-	ご自由に編集して、ご活用ください。
-
-	kitfactory@gmail.com
-*/
-
+//	VSCode用マークダウン・テンプレート
+//	ご自由に編集して、ご活用ください。
+//
+//	kitfactory@gmail.com
 	"UML_Sequence" : {
 		"prefix": "uml_sequence",
 		"body":[
@@ -24,7 +21,8 @@
 			"@enduml",
 			"```",
 			"",
-			"[help](http://yohshiy.blog.fc2.com/blog-entry-153.html)"
+			"[help](http://yohshiy.blog.fc2.com/blog-entry-153.html)",
+			""
 		],
 	    "description": "UML Sequence"
 	},
@@ -45,7 +43,8 @@
 			"\"Qux\" --> ==gate==",
 			"==gate== --> (*)",
 			"@enduml",
-			"```"
+			"```",
+			""
 		],
 		"description": "UML Activity"
 	},
@@ -62,7 +61,8 @@
 			"Bar --> Baz  : close",
 			"Baz --> [*]",
 			"@enduml",
-			"```"
+			"```",
+			""
 		],
 		"description": "UML state"
 	},
@@ -74,7 +74,8 @@
 			"|:--|:--|",
 			"| | |",
 			"| | |",
-			"| | |"		
+			"| | |",
+			""
 		],
 		"description": "2 row table"
 	},
@@ -85,7 +86,8 @@
 			"|:--|:--|:--|",
 			"| | | |",
 			"| | | |",
-			"| | | |"		
+			"| | | |",
+			""
 		],
 		"description": "2 row table"
 	},
@@ -112,7 +114,8 @@
 			"",
 			"### 4.議論",
 			"* xxxxはxxxではないか？(Aさん)",
-			"→ xxxにする。"
+			"→ xxxにする。",
+			""
 		],
 		"description": "meeting"
 	},
@@ -123,7 +126,8 @@
 			"|:--|:--|:--|:--|",
 			"|案A:xxxする| | | |",
 			"|案B:xxxする| | | |",
-			"|案C:xxxする| | | |"
+			"|案C:xxxする| | | |",
+			""
 		],
 		"description": "pros_cons"
 	},
@@ -150,7 +154,8 @@
 			"|__担当A__|",
 			":xxxする;",
 			"@enduml",
-			"```"
+			"```",
+			""
 		],
 		"description": "workflow"
 	},
@@ -172,7 +177,8 @@
 			"endif",
 			"\"cccする\"-->(*)",
 			"@enduml",
-			"```"
+			"```",
+			""
 		],
 		"description": "pdpc"
 	},
@@ -198,7 +204,8 @@
 			"[設計書]-->(実装)",
 			"(実装)-->[ソースコード]",
 			"@enduml",
-			"```"
+			"```",
+			""
 		],
 		"description": "pfd"
 	},
@@ -219,11 +226,53 @@
 			"    [xxxAPI]-right->DB : xxxする",
 			"}",
 			"@enduml",
-			"```"
+			"```",
+			""
 		],
 		"description": "system"
 
+	},
+	"mindmap": {
+		"prefix": "mindmap",
+		"body": [
+			"```plantuml",
+			"@startmindmap",
+			"caption figure 1",
+			"title My super title",
+			"",
+			"* <&flag>Debian",
+			"** <&globe>Ubuntu",
+			"*** Linux Mint",
+			"*** Kubuntu",
+			"***_ Lubuntu",
+			"***_ KDE Neon",
+			"** <&graph>LMDE",
+			"** <&pulse>SolydXK",
+			"** <&people>SteamOS",
+			"** <&star>Raspbian with a very long name",
+			"*** <s>Raspmbc</s> => OSMC",
+			"*** <s>Raspyfi</s> => Volumio",
+			"",
+			"left side",
+			"",
+			"**[#lightgreen] Green",
+			"**[#FFBBCC] Rose",
+			"**[#lightblue] Blue",
+			"",
+			"header",
+			"My super header",
+			"endheader",
+			"",
+			"center footer My super footer",
+			"",
+			"legend right",
+			"  Short",
+			"  legend",
+			"endlegend",
+			"@endmindmap",
+			"```",
+			""
+		],
+		"description": "mindmap"
 	}
 }
-
-
